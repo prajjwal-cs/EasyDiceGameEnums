@@ -4,5 +4,5 @@ public enum DiceOutcomes {
     Three,
     Four,
     Five,
-    Six;
+    Six
 }
