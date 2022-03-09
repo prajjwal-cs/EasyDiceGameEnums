@@ -7,6 +7,8 @@ File: Main.java */
 
 public class Main {
     public static void main(String[] args) {
-
+        ThrowDice throwDice = new ThrowDice();
+        DiceOutcomes dice1 = throwDice.rollDice();
+        DiceOutcomes dice2 = throwDice.rollDice();
     }
 }
