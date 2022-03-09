@@ -5,8 +5,6 @@ Date: 05-03-2022
 Time: 17:40
 File: RandomDice.java */
 
-public class Dice {
-    public static void main(String[] args) {
+public class ThrowDice {
 
-    }
 }
