@@ -10,8 +10,9 @@ public class ThrowDice {
         var randomOutcome = Double.valueOf(Math.random() * DiceOutcomes.values().length).intValue();
 
         for (DiceOutcomes diceOutcomes : DiceOutcomes.values()) {
-            if (randomOutcome == diceOutcomes.ordinal())
-                return randomOutcome;
+            if (randomOutcome == diceOutcomes.getValue())
+                return diceOutcomes;
         }
+        return DiceOutcomes.One;
     }
 }

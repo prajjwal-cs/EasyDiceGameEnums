@@ -6,7 +6,7 @@ public enum DiceOutcomes {
     Five(5),
     Six(6);
 
-    private int value;
+    private final int value;
 
     DiceOutcomes(int value) {
         this.value = value;
