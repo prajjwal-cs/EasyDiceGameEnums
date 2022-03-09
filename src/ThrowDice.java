@@ -6,5 +6,7 @@ Time: 17:40
 File: RandomDice.java */
 
 public class ThrowDice {
+    public static void main(String[] args) {
 
+    }
 }
