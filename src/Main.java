@@ -10,5 +10,8 @@ public class Main {
         ThrowDice throwDice = new ThrowDice();
         DiceOutcomes dice1 = throwDice.rollDice();
         DiceOutcomes dice2 = throwDice.rollDice();
+
+        System.out.println("dice1 = " + dice1);
+        System.out.println("dice2 = " + dice2);
     }
 }
